@@ -41,42 +41,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class StartServiceListenerCore {
-    public static String DATABASE_URL = "https://quattet-11188.firebaseio.com/";
-    public static String GATEWAY_URI;
-    public static String http = "http";
-    public static String gateway_type = "";
-    public static String x_api_key = "";
-    public static final Logger log = LoggerFactory.getLogger(StartServiceListenerCore.class);
-    public static final String MENU_APP = "system_settings/menu_config/data";
-    public static final String RESPONSES = "responses";
-    public static final String RESPONSES_HIS = "responses_his";
-    public static final String MENU_APP_HIS = "system_settings/menu_config/his/data";
-    public static final String DATA = "data";
-    public static final String CONFIGURATION = "configuration";
-    public static boolean DEBUG = false;
-    public static String UPLOAD_FILE_URI;
-    public static String USER_ID = "USER_ID";
-    public static String REST_SERVICE_URI = "http://localhost:8080/api";
-    public static String RESSHARE_REST_SERVICE_URI = "http://localhost:8088/api";
-    public static String APPLICATION_NAME = "quattet";
-    public static String ENV = "DEV";
-    public static String CLUSTER = "";
-    public static String INPUT = "input_data";
-    public static String KEY = "123";
-    public static Properties prop = null;
+public class StartServiceListenerCore5 {
 
-    public StartServiceListenerCore() {
+
+    public StartServiceListenerCore5() {
     }
 
-    public static void main(String[] args) {
-        SpringApplication.run(StartServiceListenerCore.class, args);
-    }
+ 
 
     private static void postOutput(Output output) {
         System.out.println("Testing postOutput Output API----------");
         RestTemplate restTemplate = new RestTemplate();
-        URI uri = restTemplate.postForLocation(REST_SERVICE_URI + "/output/", output, new Object[]{Output.class});
+        URI uri = restTemplate.postForLocation(StartServiceListenerCore.REST_SERVICE_URI + "/output/", output, new Object[]{Output.class});
         System.out.println("Location : " + uri.toASCIIString());
     }
 
@@ -141,24 +117,24 @@ public class StartServiceListenerCore {
     }
 
     public static Properties getConfig() {
-        if (prop != null) {
-            return prop;
+        if (StartServiceListenerCore.prop != null) {
+            return StartServiceListenerCore.prop;
         } else {
-            prop = getConfig("config.properties");
-            DATABASE_URL = prop.getProperty("database");
-            GATEWAY_URI = prop.getProperty("gateway_uri");
-            http = prop.getProperty("http");
-            x_api_key = prop.getProperty("x_api_key");
-            gateway_type = prop.getProperty("gateway_type");
-            APPLICATION_NAME = prop.getProperty("app_name");
-            UPLOAD_FILE_URI = prop.getProperty("upload_file_uri");
-            ENV = prop.getProperty("ent");
-            CLUSTER = prop.getProperty("cluster");
-            USER_ID = prop.getProperty("user_id");
-            KEY = prop.getProperty("key");
-            String sDEBUG = prop.getProperty("debug");
+            StartServiceListenerCore.prop = getConfig("config.properties");
+            StartServiceListenerCore.DATABASE_URL = StartServiceListenerCore.prop.getProperty("database");
+            StartServiceListenerCore.GATEWAY_URI = StartServiceListenerCore.prop.getProperty("gateway_uri");
+            StartServiceListenerCore.http = StartServiceListenerCore.prop.getProperty("http");
+            StartServiceListenerCore.x_api_key = StartServiceListenerCore.prop.getProperty("x_api_key");
+            StartServiceListenerCore.gateway_type = StartServiceListenerCore.prop.getProperty("gateway_type");
+            StartServiceListenerCore.APPLICATION_NAME = StartServiceListenerCore.prop.getProperty("app_name");
+            StartServiceListenerCore.UPLOAD_FILE_URI = StartServiceListenerCore.prop.getProperty("upload_file_uri");
+            StartServiceListenerCore.ENV = StartServiceListenerCore.prop.getProperty("ent");
+            StartServiceListenerCore.CLUSTER = StartServiceListenerCore.prop.getProperty("cluster");
+            StartServiceListenerCore.USER_ID = StartServiceListenerCore.prop.getProperty("user_id");
+            StartServiceListenerCore.KEY = StartServiceListenerCore.prop.getProperty("key");
+            String sDEBUG = StartServiceListenerCore.prop.getProperty("debug");
             if (sDEBUG != null) {
-                DEBUG = Boolean.valueOf(sDEBUG);
+                StartServiceListenerCore.DEBUG = Boolean.valueOf(sDEBUG);
             }
 
             if (FirebaseApp.getApps() == null || FirebaseApp.getApps().size() == 0) {
@@ -167,7 +143,7 @@ public class StartServiceListenerCore {
 
                     FirebaseOptions options = new FirebaseOptions.Builder()
                             .setCredential(FirebaseCredentials.fromCertificate(serviceAccount))
-                            .setDatabaseUrl(DATABASE_URL)
+                            .setDatabaseUrl(StartServiceListenerCore.DATABASE_URL)
                             .build();
                     FirebaseApp.initializeApp(options);
                     System.out.println("success ");
@@ -176,7 +152,7 @@ public class StartServiceListenerCore {
                 }
             }
 
-            return prop;
+            return StartServiceListenerCore.prop;
         }
     }
 
@@ -194,7 +170,7 @@ public class StartServiceListenerCore {
               //  FirebaseOptions options = (new FirebaseOptions.Builder()).setCredentials(credentials).build();
                 FirebaseOptions options = new FirebaseOptions.Builder()
                         .setCredential(FirebaseCredentials.fromCertificate(serviceAccount))
-                        .setDatabaseUrl(DATABASE_URL)
+                        .setDatabaseUrl(StartServiceListenerCore.DATABASE_URL)
                         .build();
                 FirebaseApp.initializeApp(options);
                 System.out.println("success ");
@@ -206,20 +182,20 @@ public class StartServiceListenerCore {
     }
 
     public static void setAppConfig(AppConfig appcfg) {
-        DATABASE_URL = appcfg.getDatabase();
-        GATEWAY_URI = appcfg.getGateway_uri();
-        http = appcfg.getHttp();
-        x_api_key = appcfg.getX_api_key();
-        gateway_type = appcfg.getGateway_type();
-        APPLICATION_NAME = appcfg.getApp_name();
-        UPLOAD_FILE_URI = appcfg.getUpload_file_uri();
-        ENV = "";
-        CLUSTER = appcfg.getCluster();
-        USER_ID = appcfg.getUser_id();
-        KEY = appcfg.getBackend_key();
+        StartServiceListenerCore.DATABASE_URL = appcfg.getDatabase();
+        StartServiceListenerCore.GATEWAY_URI = appcfg.getGateway_uri();
+        StartServiceListenerCore.http = appcfg.getHttp();
+        StartServiceListenerCore.x_api_key = appcfg.getX_api_key();
+        StartServiceListenerCore.gateway_type = appcfg.getGateway_type();
+        StartServiceListenerCore.APPLICATION_NAME = appcfg.getApp_name();
+        StartServiceListenerCore.UPLOAD_FILE_URI = appcfg.getUpload_file_uri();
+        StartServiceListenerCore.ENV = "";
+        StartServiceListenerCore.CLUSTER = appcfg.getCluster();
+        StartServiceListenerCore.USER_ID = appcfg.getUser_id();
+        StartServiceListenerCore.KEY = appcfg.getBackend_key();
         String sDEBUG = appcfg.getDebug();
         if (sDEBUG != null) {
-            DEBUG = Boolean.valueOf(sDEBUG);
+            StartServiceListenerCore.DEBUG = Boolean.valueOf(sDEBUG);
         }
 
     }

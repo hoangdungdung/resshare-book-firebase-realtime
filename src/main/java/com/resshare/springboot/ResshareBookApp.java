@@ -53,7 +53,7 @@ public class ResshareBookApp extends SpringBootServletInitializer {
 			try {
 
 
-				Properties properties = StartServiceListenerCore.getConfig();
+				Properties properties = StartServiceListenerCore5.getConfig();
 
 				String backend_address = properties.getProperty("backend_address");
 				String app_name = properties.getProperty("app_name");
@@ -71,7 +71,7 @@ public class ResshareBookApp extends SpringBootServletInitializer {
 				FileUploaderClient.buildUIScript();
 				RequestClient.registerApp(app_name, backend_key, backend_address);
 
-				StartServiceListenerCore.startListener();
+				StartServiceListenerCore5.startListener();
 				ServiceListenerBookStart.startListener();
 
 			} catch (Exception e) {
