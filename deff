@@ -1,0 +1,15 @@
+def urlFile = { url, name ->
+    File file = new File("$buildDir/download/${name}.jar")
+    file.parentFile.mkdirs()
+    if (!file.exists()) {
+        new URL(url).withInputStream { downloadStream ->
+            file.withOutputStream { fileOut ->
+                fileOut << downloadStream
+            }
+        }
+    }
+    files(file.absolutePath)
+}
+dependencies { //example
+    compile urlFile('https://github.com/java-native-access/jna/blob/4.2.2/lib/native/android-arm.jar?raw=true', 'jna-android-arm')
+}

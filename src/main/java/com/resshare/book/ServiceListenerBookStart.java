@@ -73,7 +73,11 @@ public class ServiceListenerBookStart {
 
 		ReportUser reportUser = new ReportUser();
 		reportUser.onStart();
-
+		
+		
+		DeleteAccountService deleteAccountService = new DeleteAccountService();
+		deleteAccountService.onStart();
+	 
 		// BookService bookService = new BookService();
 		// bookService.onStart();
 

@@ -7,16 +7,8 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.Properties;
 
-import jakarta.servlet.ServletContext;
-import jakarta.servlet.ServletContextEvent;
-import jakarta.servlet.ServletException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.Bean;
-
 import com.github.alexdlaird.ngrok.NgrokClient;
 import com.github.alexdlaird.ngrok.protocol.CreateTunnel;
 import com.github.alexdlaird.ngrok.protocol.Tunnel;
@@ -26,82 +18,17 @@ import com.resshare.clienst.FileUploaderClient;
 import com.resshare.framework.core.service.RequestClient;
 
 import ngrok.api.model.NgrokTunnel;
-import org.springframework.web.context.WebApplicationContext;
 
 @SpringBootApplication(scanBasePackages = { "com.resshare" }) // same as @Configuration
 																// @EnableAutoConfiguration @ComponentScan
 														 		// combined
-public class ResshareBookApp extends SpringBootServletInitializer {
-
-
-	@Override
-	protected WebApplicationContext createRootApplicationContext(ServletContext servletContext) {
-		return  super.createRootApplicationContext(servletContext);
-	}
-
-	@Override
-	public void onStartup(ServletContext servletContext) throws ServletException {
-		System.err.println("------------------------------------");
-		super.onStartup(servletContext);
-
-
-	}
-
-	static void initFireBase() {
-		System.err.println("initFireBase------------------------------------");
-		if ((FirebaseApp.getApps() == null) || (FirebaseApp.getApps().size() == 0)) {
-			try {
-
-
-				Properties properties = StartServiceListenerCore5.getConfig();
-
-				String backend_address = properties.getProperty("backend_address");
-				String app_name = properties.getProperty("app_name");
-				String backend_key = properties.getProperty("backend_key");
-				String ngrok = properties.getProperty("ngrok");
-				if("true".equals(ngrok))
-					backend_address = runNgok();
-
-
-				Properties offsensiveProperties = StartServiceListenerCore.getConfig("offsensive.properties");
-				offsensive=  offsensiveProperties.getProperty("offsensive");
-
-
-
-				FileUploaderClient.buildUIScript();
-				RequestClient.registerApp(app_name, backend_key, backend_address);
-
-				StartServiceListenerCore5.startListener();
-				ServiceListenerBookStart.startListener();
-
-			} catch (Exception e) {
-				System.out.println("ERROR: invalid service account credentials. See README.");
-				System.out.println(e.getMessage());
-
-				System.exit(1);
-			}
-		}
-	}
-
-	@Override
-	protected SpringApplicationBuilder configure(	SpringApplicationBuilder builder) {
-
-
-
-		return builder.sources(ResshareBookApp.class);
-	}
+public class ResshareBookApp {
 
 	public static void main(String[] args) {
-		System.err.println("------------------------------------");
-		initFireBase();
-		SpringApplication sa = new SpringApplication(
-				ResshareBookApp.class);
-		sa.run(args);
+
+		SpringApplication.run(ResshareBookApp.class, args);
+		initApp();
 	}
-
-
-
-
 	public static String offsensive;
 	 
 	public static String DATABASE_URL;
@@ -129,53 +56,85 @@ public class ResshareBookApp extends SpringBootServletInitializer {
 	// Output.class);
 	// System.out.println("Location : " + uri.toASCIIString());
 	// }
+	private static void initApp() {
+		if ((FirebaseApp.getApps() == null) || (FirebaseApp.getApps().size() == 0)) {
+			try {
+
+
+				Properties properties = StartServiceListenerCore.getConfig();
+
+				String backend_address = properties.getProperty("backend_address");
+				String app_name = properties.getProperty("app_name");
+				String backend_key = properties.getProperty("backend_key");
+				String ngrok = properties.getProperty("ngrok");
+				if("true".equals(ngrok))
+					backend_address = runNgok();
+
+
+				Properties offsensiveProperties = StartServiceListenerCore.getConfig("offsensive.properties");
+				offsensive=  offsensiveProperties.getProperty("offsensive");
 
 
 
-		static 	private String runNgok() {
-				String backend_address;
-				String ngrokPathconfig = "D:\\sunshiner\\Book\\20180318\\bookMap\\resshare-book\\ngrokconfig.properties";
-				try {
-					
-					
-					
-				 final NgrokClient ngrokClient = new NgrokClient.Builder().build();
-				 final int port = StartServiceListenerCore.getPort();
-				 
+				FileUploaderClient.buildUIScript();
+				RequestClient.registerApp(app_name, backend_key, backend_address);
 
-				    
+				StartServiceListenerCore.startListener();
+				ServiceListenerBookStart.startListener();
+				System.out.println("BooooooooooooK 1.0");
 
-				    final CreateTunnel createTunnel = new CreateTunnel.Builder()
-				            .withAddr(port)
-				            .build();
-				    final Tunnel tunnel = ngrokClient.connect(createTunnel);
-				    
-				    System.out.println( tunnel.getPublicUrl() );
-				    backend_address = tunnel.getPublicUrl().replaceFirst("http://", "");
-				    Properties propconfigNgrok = StartServiceListenerCore.getConfig(ngrokPathconfig);
-
-				  propconfigNgrok.setProperty( "public_url", backend_address);
-					try {
-						OutputStream output = new FileOutputStream(ngrokPathconfig);
-
-						propconfigNgrok.store(output, null);
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				    
-} catch (Exception e) {
-				Properties propconfigNgrok = StartServiceListenerCore.getConfig(ngrokPathconfig);
-				backend_address = propconfigNgrok.getProperty("public_url");
-				
-				System.out.println("ERROR: NgrokClient.");
+			} catch (Exception e) {
+				System.out.println("ERROR: invalid service account credentials. See README.");
 				System.out.println(e.getMessage());
 
-				 
-}
-				return backend_address;
-			};
+				System.exit(1);
+			}
+		}
+	}
 
+	private static String runNgok() {
+		String backend_address;
+		String ngrokPathconfig = "D:\\sunshiner\\Book\\20180318\\bookMap\\resshare-book\\ngrokconfig.properties";
+		try {
+
+
+
+			final NgrokClient ngrokClient = new NgrokClient.Builder().build();
+			final int port = StartServiceListenerCore.getPort();
+
+
+
+
+			final CreateTunnel createTunnel = new CreateTunnel.Builder()
+					.withAddr(port)
+					.build();
+			final Tunnel tunnel = ngrokClient.connect(createTunnel);
+
+			System.out.println( tunnel.getPublicUrl() );
+			backend_address = tunnel.getPublicUrl().replaceFirst("http://", "");
+			Properties propconfigNgrok = StartServiceListenerCore.getConfig(ngrokPathconfig);
+
+			propconfigNgrok.setProperty( "public_url", backend_address);
+			try {
+				OutputStream output = new FileOutputStream(ngrokPathconfig);
+
+				propconfigNgrok.store(output, null);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		} catch (Exception e) {
+			Properties propconfigNgrok = StartServiceListenerCore.getConfig(ngrokPathconfig);
+			backend_address = propconfigNgrok.getProperty("public_url");
+
+			System.out.println("ERROR: NgrokClient.");
+			System.out.println(e.getMessage());
+
+
+		}
+		return backend_address;
+	};
 
 
 }

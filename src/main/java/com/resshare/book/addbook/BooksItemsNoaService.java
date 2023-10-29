@@ -1,5 +1,6 @@
 package com.resshare.book.addbook;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,14 +9,21 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.resshare.book.RefFireBaseBook;
+import com.resshare.common.CommandConstant;
 import com.resshare.common.ShowMsgDashboardUI;
 import com.resshare.core.control.model.MsgResponse;
 import com.resshare.framework.core.DataUtil;
+import com.resshare.framework.core.reflectproxy.ProxyDemo;
 import com.resshare.framework.core.service.Cache;
 import com.resshare.framework.core.service.DashboardMessage;
+import com.resshare.framework.core.service.FireBaseReference;
+import com.resshare.framework.core.service.IRequest;
 import com.resshare.framework.core.service.ResFirebaseReference;
 import com.resshare.framework.core.service.ResponseClient;
+import com.resshare.framework.model.Input;
 import com.sshare.core.StringUtil;
 
 import bo.BooksItemsNoaBoImpl2;
@@ -154,7 +162,7 @@ public class BooksItemsNoaService extends ServiceBase {
 											}
 											msg.setSuccess(true);
 											msg.setMessage_success("Thêm sách thành công");
-
+											thongbaothanhcong(snapshot100);
 											FirebaseDatabase.getInstance().getReference(getReferenceName()).child(sKey)
 													.removeValue();
 
@@ -277,6 +285,16 @@ public class BooksItemsNoaService extends ServiceBase {
 												msgDashboardMessage.put("data", mapReturnData);
 												//Tạm thời bỏ thông báo 
 												//ResponseClient.sendResponseScriptUI(msgDashboardMessage);
+												
+												
+												
+												
+												
+												thongbaothanhcong(snapshot100);
+												
+												
+												
+												
 
 												FirebaseDatabase.getInstance().getReference(getReferenceName())
 														.child(snapshot100.getKey()).child("processing")
@@ -292,6 +310,12 @@ public class BooksItemsNoaService extends ServiceBase {
 											}
 
 										}
+
+
+
+										
+
+								 
 
 										@Override
 										public void onCancelled(DatabaseError error) {
@@ -369,7 +393,75 @@ public class BooksItemsNoaService extends ServiceBase {
 						.child("processing").setValue("error");
 			}
 	}
+	private void thongbaothanhcong(DataSnapshot snapshot100) {
+		HashMap hashMapCommand = new HashMap<>();
+		HashMap hashMapCommand1 = new HashMap<>();
+		hashMapCommand1.put(CommandConstant.show_alert_dialog, "Thêm sách thành công");
+		hashMapCommand.put("screen",hashMapCommand1 );
+		
+		sendCommand(snapshot100,hashMapCommand);
+	}
+	static Map getHashMapResponse(DataSnapshot snapshot) {
+		DashboardMessage dashboardMessage = new DashboardMessage();
+		dashboardMessage.setApplication(snapshot.child("application").getValue(String.class));
+		dashboardMessage.setDelete(0);
+		dashboardMessage.setEvent(snapshot.child("event").getValue(String.class));
+		
+			
+		String user_id = snapshot.child("user_id_destination").getValue(String.class);
+		if( snapshot.hasChild("user_id") )
+			user_id = snapshot.child("user_id").getValue(String.class);
+		dashboardMessage.setUser_id_destination(user_id);
 
+		Map msgDashboardMessage = dashboardMessage.totHashMap();
+		return msgDashboardMessage;
+	}
+	static void sendResponse(Map msgDashboardMessage) {
+		ProxyDemo<IRequest> prIRequest = new ProxyDemo<IRequest>();
+		IRequest iRequest = prIRequest.create(IRequest.class);
+		Gson gson = new GsonBuilder().create();
+
+		String jsonString = gson.toJson(msgDashboardMessage);
+		Input input = new Input("resshare", "key1", jsonString);
+
+		input.setDataCollection(FireBaseReference.draft_get_resshare_user_id);
+		input.setModule("core");
+		iRequest.input(input);
+	}
+	public static void sendCommand(DataSnapshot snapshot, Map commandMap) {
+
+		try {
+
+			Map msgDashboardMessage = getHashMapResponse(snapshot);
+
+  
+			Date dt = new Date();
+			String id = String.valueOf(dt.getTime());
+ 
+
+			 
+	 
+
+	 
+ 
+
+			msgDashboardMessage.put("data", commandMap);
+
+			msgDashboardMessage.put("id", id);
+			 
+			msgDashboardMessage.put("msg_type", "command");
+
+	 
+
+			sendResponse(msgDashboardMessage);
+
+			// FirebaseDatabase.getInstance().getReference(
+			// ResFirebaseReference.getAbsolutePath(RefFireBaseBook.BOOK_DATA_BOOKS_NEW+"/"+book_id))
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 	@Override
 	public void onCancelled(DatabaseError error) {
 		// TODO Auto-generated method stub

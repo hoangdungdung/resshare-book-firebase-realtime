@@ -31,6 +31,8 @@ public abstract class LoadFormOxyBaseListener extends ListenerBase {
 
 				mapReturnData.put("script", getScriptName());
 				mapReturnData.put("script_param", script_param);
+				mapReturnData.put("script_control_condition", getScriptControlCondition());
+				
 
 				objJs.put("data", mapReturnData);
 
@@ -48,6 +50,10 @@ public abstract class LoadFormOxyBaseListener extends ListenerBase {
 	}
 
 	public abstract   String getScriptName();
+	
+	public     String getScriptControlCondition() {
+		return "";
+	}
 
 	public   String getType()
 	{

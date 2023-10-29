@@ -26,6 +26,12 @@ public class LoadFormAddBookListener extends LoadFormOxyBaseListener {
 		// "../draft/covid19/create_volunteers_group/post_data";
 		return ResFirebaseReference.getInputPathReference(RefFireBaseBook.BOOK_DATA_ITEMS_NOA);
 	}
+	@Override
+	public     String getScriptControlCondition()
+	{
+		return "btn_back,btn_right,imageViewScreen";
+		
+	}
 
 	// @Override
 	// public Script getScript() {
