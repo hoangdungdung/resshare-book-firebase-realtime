@@ -10,10 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 																// combined
 public class ResshareBookAppSpring2 {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ResshareBookAppSpring2.class, args);
-	}
-
 	public static String offsensive;
 
 	public static String DATABASE_URL;
