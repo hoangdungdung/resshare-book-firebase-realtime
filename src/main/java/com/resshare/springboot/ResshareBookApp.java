@@ -111,7 +111,7 @@ public class ResshareBookApp {
 			final Tunnel tunnel = ngrokClient.connect(createTunnel);
 
 			System.out.println( tunnel.getPublicUrl() );
-			backend_address = tunnel.getPublicUrl().replaceFirst("http://", "");
+			backend_address = tunnel.getPublicUrl();//replaceFirst("http://", "");
 			Properties propconfigNgrok = StartServiceListenerCore.getConfig(ngrokPathconfig);
 
 			propconfigNgrok.setProperty( "public_url", backend_address);
