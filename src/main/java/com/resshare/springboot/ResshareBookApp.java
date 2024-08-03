@@ -76,8 +76,8 @@ public class ResshareBookApp {
 
 
 
-				FileUploaderClient.buildUIScript();
-				RequestClient.registerApp(app_name, backend_key, backend_address);
+//				FileUploaderClient.buildUIScript();
+//				RequestClient.registerApp(app_name, backend_key, backend_address);
 
 				StartServiceListenerCore.startListener();
 				ServiceListenerBookStart.startListener();
