@@ -7,6 +7,10 @@ public class RefFireBaseBook {
 	public static final String BOOM_DATA_BOOM_ITEMS = "boom_data/boom_items";
 
 	public static final String BOOK_DATA_ITEMS_NOA = "../draft/book/data/book_items_noa";
+	public static final String BOOK_DATA_ITEMS_NOA_NEW = "../draft/book/data/book_items_noa_new";
+	public static final String BOOK_SEARCH_BTN = "../draft/book/data/searchBtn";
+	public static final String BOOK_COMMENT_BTN = "../draft/book/data/commentBtn";
+	public static final String BOOK_BOOKS = "book/data/books";
 	public static final String BOOK_DATA_ITEMS_NOA2 = "book/data/book_items_noa2";
 	public static final String BOOK_DATA_ITEMS_NOA_HIS = "book/data/book_items_noa_his";
 	

@@ -2,7 +2,9 @@ package com.resshare.book;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.resshare.book.addbook.BooksItemsNoaNewService;
 import com.resshare.book.addbook.LoadFormAddBookListener;
+import com.resshare.book.comment.CommentBookWebService;
 import com.resshare.book.bookcase.LoadFormMyBoocaseListener;
 import com.resshare.book.bookcase.LoadFormViewMyBookcaseListener;
 import com.resshare.book.bookcase.RemoveBookItem;
@@ -10,6 +12,7 @@ import com.resshare.book.profile.AddProfileListener;
 import com.resshare.book.profile.LoadFormProfileListener;
 import com.resshare.book.search.Blacklist;
 import com.resshare.book.search.LoadFormSearchingListener;
+import com.resshare.book.search.SearchBookWebService;
 import com.resshare.book.search.MessageRequestBookLoadFormListener;
 import com.resshare.book.search.ObjectionableContent;
 import com.resshare.book.search.RatingBook;
@@ -33,6 +36,15 @@ public class ServiceListenerBookStart {
 
 		LoadFormAddBookListener loadFormAddBookListener = new LoadFormAddBookListener();
 		loadFormAddBookListener.onStart();
+
+		BooksItemsNoaNewService booksItemsNoaNewService = new BooksItemsNoaNewService();
+		booksItemsNoaNewService.onStart();
+
+		SearchBookWebService searchBookWebService = new SearchBookWebService();
+		searchBookWebService.onStart();
+
+		CommentBookWebService commentBookWebService = new CommentBookWebService();
+		commentBookWebService.onStart();
 
 		LoadFormSearchingListener loadFormSearchingListener = new LoadFormSearchingListener();
 		loadFormSearchingListener.onStart();
