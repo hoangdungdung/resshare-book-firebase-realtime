@@ -1,0 +1,435 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2026-06-29T22:41:18.121+07:00  INFO 4527 --- [           main] c.resshare.springboot.ResshareBookApp    : Starting ResshareBookApp v1.0 using Java 21.0.10 with PID 4527 (/Users/hoangdung/SaolaIT/resshare-book-firebase-realtime/target/resshare-book-firebase-realtime-1.0-exec.jar started by hoangdung in /Users/hoangdung/SaolaIT/resshare-book-firebase-realtime)
+2026-06-29T22:41:18.123+07:00  INFO 4527 --- [           main] c.resshare.springboot.ResshareBookApp    : No active profile set, falling back to 1 default profile: "default"
+2026-06-29T22:41:19.334+07:00  INFO 4527 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8287 (http)
+2026-06-29T22:41:19.347+07:00  INFO 4527 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-29T22:41:19.347+07:00  INFO 4527 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2026-06-29T22:41:19.451+07:00  INFO 4527 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-29T22:41:19.453+07:00  INFO 4527 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1273 ms
+2026-06-29T22:41:19.905+07:00  INFO 4527 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8287 (http) with context path ''
+2026-06-29T22:41:19.920+07:00  INFO 4527 --- [           main] c.resshare.springboot.ResshareBookApp    : Started ResshareBookApp in 2.252 seconds (process running for 2.871)
+success 
+main execution  start 
+2026-06-29T22:41:21.586+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for -OwB7Jw9UQ3Jjv9D4PVr found on class model.Books
+2026-06-29T22:41:21.586+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for -Ow0lQwGlxaVP_AUZRp3 found on class model.Books
+2026-06-29T22:41:21.586+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for -Ow32F4lj2IZbXCg7FKK found on class model.Books
+2026-06-29T22:41:21.586+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for -Ow0mGx_LG1JDxOrQWgY found on class model.Books
+2026-06-29T22:41:21.586+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for -OwD_vY8lZBtnr4iM2DN found on class model.Books
+2026-06-29T22:41:21.586+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for -OwD_sUYZ7HgnQyJXRtQ found on class model.Books
+2026-06-29T22:41:21.586+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for -OwJ-X6W-q5DSTqH12rf found on class model.Books
+2026-06-29T22:41:21.588+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for -OwB68srBnYi2Thjbp1n found on class model.Books
+BooooooooooooK 1.0
+2026-06-29T22:41:25.082+07:00  WARN 4527 --- [baseEventTarget] c.g.f.d.u.encoding.CustomClassMapper     : No setter/field for distance found on class model.TransBook
+onChildAdded -OwD_sTpOv_yxxPJucPC
+onChildAdded -OwD_vXQZa8GWDAm_QsN
+onChildAdded -OwJ-X5Yai_L3HRnG4Qr
+SearchBookWebService onChildAdded -OwCWfvLBAjA6CCHs-zD
+SearchBookWebService onChildAdded -OwCa_DbhvNGI9cFxlGK
+SearchBookWebService onChildAdded -OwChv17uJlkRcOSeJtn
+SearchBookWebService onChildAdded -OwCi32eWt7HKuTnwRcy
+SearchBookWebService onChildAdded -OwDa0Py4rbDsW0Iy_Gf
+SearchBookWebService onChildAdded -OwDfh074oRP_oNKr8gX
+SearchBookWebService onChildAdded -OwDfmn8RxgBMVMRx9NR
+SearchBookWebService onChildAdded -OwDgJviqQCzY3bhZ9lZ
+SearchBookWebService onChildAdded -OwDggSjIqmQtk-Yb6Gw
+SearchBookWebService onChildAdded -OwDjPKz5ACpc7OAahYr
+SearchBookWebService onChildAdded -OwDkb-QBeK8lLSlmQS1
+SearchBookWebService onChildAdded -OwDkmv7Am75dYaD4cna
+SearchBookWebService onChildAdded -OwDkqy0NO64c3EnAiIQ
+SearchBookWebService onChildAdded -OwDkvvqw1V-Ear3XNEv
+SearchBookWebService onChildAdded -OwDl7WJ471g1U7cpJnv
+SearchBookWebService onChildAdded -OwDlxcGP7t3Es37TL0h
+SearchBookWebService onChildAdded -OwDmfmwAkE9ociGToTt
+SearchBookWebService onChildAdded -OwDtOB2FE5tvkIz2Uo3
+SearchBookWebService onChildAdded -OwJ-YvCNCZDNddUAnZL
+CommentBookWebService onChildAdded -OwCWUrwuyV5zDPBbcCs
+CommentBookWebService onChildAdded -OwCWUs5LmXNHe3KPuJD
+CommentBookWebService onChildAdded -OwChsO3XQBraPO1EHAB
+CommentBookWebService onChildAdded -OwCi1n0c0srhZNDygmT
+CommentBookWebService onChildAdded -OwDa3PEsSPbSMixDtPd
+CommentBookWebService onChildAdded -OwDa3PO64kNxNp9cv7U
+CommentBookWebService onChildAdded -OwDfjFT4dcclDPedkK1
+CommentBookWebService onChildAdded -OwDfkQcHedKXMyO9Wkn
+CommentBookWebService onChildAdded -OwDfkQkj4vxxl_LDsKb
+CommentBookWebService onChildAdded -OwDflxpbt5fZ9uQe8u3
+CommentBookWebService onChildAdded -OwDfpw4e6cvBXfrrpcz
+CommentBookWebService onChildAdded -OwDfpwFbIUIQEz9GwDc
+CommentBookWebService onChildAdded -OwDgEa-5u5ILNZm-TLp
+CommentBookWebService onChildAdded -OwDgEa7JonbkkXr7bTs
+CommentBookWebService onChildAdded -OwDgMnbE3ck4llXLbRQ
+CommentBookWebService onChildAdded -OwDgMniyr2We87zIFhF
+CommentBookWebService onChildAdded -OwDgVnBBPEiafB-Chpl
+CommentBookWebService onChildAdded -OwDgVnIkhW5mQ4mOXtf
+CommentBookWebService onChildAdded -OwDgiuyD2XnzSC_9eux
+CommentBookWebService onChildAdded -OwDgiv4_io9yYLD1Zvq
+CommentBookWebService onChildAdded -OwDi2ZOw0-wgenxn8ep
+CommentBookWebService onChildAdded -OwDi2ZdCSticwJe8d3l
+CommentBookWebService onChildAdded -OwDjR9f-U3Ad0MtEIVL
+CommentBookWebService onChildAdded -OwDjR9m2ftpwnGpvlag
+CommentBookWebService onChildAdded -OwDjSTU6FlSLG0TdKpu
+CommentBookWebService onChildAdded -OwDjSTaf5NphwKUvvOx
+CommentBookWebService onChildAdded -OwDkUq7izCNAGBG9z2k
+CommentBookWebService onChildAdded -OwDkUqMutsCfgix763T
+CommentBookWebService onChildAdded -OwDkXOn-dtfDGuT_Rku
+CommentBookWebService onChildAdded -OwDkXOtZ9Mp4Eswf03C
+CommentBookWebService onChildAdded -OwDkeEDalzM4R4BistG
+CommentBookWebService onChildAdded -OwDkeEK8GPYaR9lVAmI
+CommentBookWebService onChildAdded -OwDkiJ0x29DPbS9a31f
+CommentBookWebService onChildAdded -OwDkiJ867aPtPq8dPBU
+CommentBookWebService onChildAdded -OwDkxKKtgbSUlvQpw8F
+CommentBookWebService onChildAdded -OwDkz8QHULhu2N8dbCh
+CommentBookWebService onChildAdded -OwDl11w3HfvfLmpRPMe
+CommentBookWebService onChildAdded -OwDl1225XOKdzxMCBP3
+CommentBookWebService onChildAdded -OwDl3euDJ2bXbkKcfYU
+CommentBookWebService onChildAdded -OwDl3f0Vv5783jPvfpm
+CommentBookWebService onChildAdded -OwDm-6G65WAzLh5Ck5C
+CommentBookWebService onChildAdded -OwDm0tHCxpoarI2bKE7
+CommentBookWebService onChildAdded -OwDm5J36z_zH9Qmtda0
+CommentBookWebService onChildAdded -OwDm5JBsq5vQ7gMfpvB
+CommentBookWebService onChildAdded -OwDmiSSeXp1RKYOceyR
+CommentBookWebService onChildAdded -OwDmnCczropf-CQI-CX
+CommentBookWebService onChildAdded -OwDmpbrqRCFzjX5GITK
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/my_bookcase
+LoadFormMyBoocaseListener user_id=-OvZ9PAz1bawHP47ZFks | record={application=book, count_message=7, data=../load_form_script/my_bookcase, screen_name=, session=-OwJ1iO6tg7ctk3TSkWW, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_41_26, type=load_form_script, key_data=load_form_script}
+LoadFormMyBoocaseListener event:event_web_loadform_2026_06_29_22_41_26 | user_id=-OvZ9PAz1bawHP47ZFks | books=7 | result=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}]
+LoadFormMyBoocaseListener msg gửi đi={application=book, count_message=7, data={books=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}], script_param={post_collection=book/input_data_cluster01/requets/my_bookcase}, script=com.resshare.book.bookcase.LoadFormMyBookcaseUI}, screen_name=, session=-OwJ1iO6tg7ctk3TSkWW, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_41_26, type=load_form_script, key_data=load_form_script}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/my_bookcase
+LoadFormMyBoocaseListener user_id=-OvZ9PAz1bawHP47ZFks | record={application=book, count_message=7, data=../load_form_script/my_bookcase, screen_name=, session=-OwJ3w15RmsZ5fkPIpoy, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_51_06, type=load_form_script, key_data=load_form_script}
+LoadFormMyBoocaseListener event:event_web_loadform_2026_06_29_22_51_06 | user_id=-OvZ9PAz1bawHP47ZFks | books=7 | result=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}]
+LoadFormMyBoocaseListener msg gửi đi={application=book, count_message=7, data={books=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}], script_param={post_collection=book/input_data_cluster01/requets/my_bookcase}, script=com.resshare.book.bookcase.LoadFormMyBookcaseUI}, screen_name=, session=-OwJ3w15RmsZ5fkPIpoy, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_51_06, type=load_form_script, key_data=load_form_script}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/my_bookcase
+LoadFormMyBoocaseListener user_id=-OvZ9PAz1bawHP47ZFks | record={application=book, count_message=7, data=../load_form_script/my_bookcase, screen_name=, session=-OwJ4KveRi6Q9apegPFC, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_52_52, type=load_form_script, key_data=load_form_script}
+LoadFormMyBoocaseListener event:event_web_loadform_2026_06_29_22_52_52 | user_id=-OvZ9PAz1bawHP47ZFks | books=7 | result=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}]
+LoadFormMyBoocaseListener msg gửi đi={application=book, count_message=7, data={books=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}], script_param={post_collection=book/input_data_cluster01/requets/my_bookcase}, script=com.resshare.book.bookcase.LoadFormMyBookcaseUI}, screen_name=, session=-OwJ4KveRi6Q9apegPFC, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_52_52, type=load_form_script, key_data=load_form_script}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/my_bookcase
+LoadFormMyBoocaseListener user_id=-OvZ9PAz1bawHP47ZFks | record={application=book, count_message=7, data=../load_form_script/my_bookcase, screen_name=, session=-OwJ4dCUrmN9qp5zNnAZ, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_54_11, type=load_form_script, key_data=load_form_script}
+LoadFormMyBoocaseListener event:event_web_loadform_2026_06_29_22_54_11 | user_id=-OvZ9PAz1bawHP47ZFks | books=7 | result=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}]
+LoadFormMyBoocaseListener msg gửi đi={application=book, count_message=7, data={books=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}], script_param={post_collection=book/input_data_cluster01/requets/my_bookcase}, script=com.resshare.book.bookcase.LoadFormMyBookcaseUI}, screen_name=, session=-OwJ4dCUrmN9qp5zNnAZ, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_54_11, type=load_form_script, key_data=load_form_script}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/my_bookcase
+LoadFormMyBoocaseListener user_id=-OvZ9PAz1bawHP47ZFks | record={application=book, count_message=7, data=../load_form_script/my_bookcase, screen_name=, session=-OwJ4eI0CUboMFXC_pVd, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_54_15, type=load_form_script, key_data=load_form_script}
+LoadFormMyBoocaseListener event:event_web_loadform_2026_06_29_22_54_15 | user_id=-OvZ9PAz1bawHP47ZFks | books=7 | result=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}]
+LoadFormMyBoocaseListener msg gửi đi={application=book, count_message=7, data={books=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}], script_param={post_collection=book/input_data_cluster01/requets/my_bookcase}, script=com.resshare.book.bookcase.LoadFormMyBookcaseUI}, screen_name=, session=-OwJ4eI0CUboMFXC_pVd, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_54_15, type=load_form_script, key_data=load_form_script}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+channel: web
+reference: book/configuration/system_setting/layout/web/main_dashboard
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/my_bookcase
+LoadFormMyBoocaseListener user_id=-OvZ9PAz1bawHP47ZFks | record={application=book, count_message=7, data=../load_form_script/my_bookcase, screen_name=, session=-OwJ5X5RpIGRxXLvKj0C, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_58_04, type=load_form_script, key_data=load_form_script}
+LoadFormMyBoocaseListener event:event_web_loadform_2026_06_29_22_58_04 | user_id=-OvZ9PAz1bawHP47ZFks | books=7 | result=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}]
+LoadFormMyBoocaseListener msg gửi đi={application=book, count_message=7, data={books=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}], script_param={post_collection=book/input_data_cluster01/requets/my_bookcase}, script=com.resshare.book.bookcase.LoadFormMyBookcaseUI}, screen_name=, session=-OwJ5X5RpIGRxXLvKj0C, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_58_04, type=load_form_script, key_data=load_form_script}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/searching
+event:event_web_loadform_2026_06_29_22_58_54
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+SearchBookWebService onChildAdded -OwJ5n0EiP249ESWUieQ
+textSearch   b
+bookId   -OwB68srBnYi2Thjbp1n
+SearchBookWebService sendResult | user_id_destination=-OvZ9PAz1bawHP47ZFks | event=get_data_layout2026_06_29_22_59_13 | found=1 | msg={application=book, data={books=[{note=Vừa bán vừa cho không lo về giá 99k, comments={-OwDfkRZtW-o6zGM1CM5={createdAt=1782657779117, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjjjjjjjj, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDmnDVExhd1TYq5zLA={createdAt=1782659625599, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=ôi mà mẹ nó], userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkeF84EeDs2JlYRmR={createdAt=1782659064550, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=má nó, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWUtWXioM5honJu9H={createdAt=1782638312790, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kkkk, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkiK6bq44Z8OLuXiq={createdAt=1782659081236, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=má nó sao lăm lỗi thé, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDfpwusSgxmYPkLRlT={createdAt=1782657801678, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjkkkkkklllllllll, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkiL3uzjBxVKDEO9Y={createdAt=1782659081243, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=thé, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwChsUmqeNtEd110Gvl={createdAt=1782641558929, replies={-OwCi1nim3PpP0f_5xdj={createdAt=1782641601628, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=ok ban, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}}, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=1 h 2, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgVpORwHF6grHRTUN={createdAt=1782657977252, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=bbbb, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjMoOdWc3uuNdeblm={createdAt=1782658381745, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=op, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDl12v8CqRDjQHLxW4={createdAt=1782659162063, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=moik, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDl3ftRpQ0HcEIaYR0={createdAt=1782659172813, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=ý, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDmiTMogKxXR3yELrL={createdAt=1782659606125, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=loi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWMDAgMxdxXeZ1GSn={createdAt=1782638277233, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kiiii, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgMotf5Q3R7-0hSqc={createdAt=1782657940421, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jis, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjRAc5fcZiF9IuPXK={createdAt=1782658744769, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=mkk, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgEk6tWA4y11GbBUH={createdAt=1782657906733, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=nmmm, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDfpy0dyAOXU2tky5u={createdAt=1782657801686, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjkkkkkklllllllll, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjSUzT-rwUPH1enXB={createdAt=1782658750151, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=opi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkUzCslUsytfCtBlE={createdAt=1782659021946, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kilo, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWUu5_J0gy9R6ruOA={createdAt=1782638312795, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kkkk, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDa3QhYSBwwTD2qzH5={createdAt=1782656288124, replies={-OwDflyhYRZxO5r5e4ii={createdAt=1782657785403, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjj  eeeeeeee, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDfjGPwQGxxnFOjLYg={createdAt=1782657774310, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjj, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}}, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=yu, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgiw1J_P1glL6foU2={createdAt=1782658035074, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=aaaaaa, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgiutJO7zrDk3-9dd={createdAt=1782658035064, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=aaaaaa, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDl13hFg7FjdWjsW1V={createdAt=1782659162074, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=moik, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDmpcljuzpWjSSiw8A={createdAt=1782659635460, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=má nó hay lỗi quá, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgMpssP0flmbRcuca={createdAt=1782657940430, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jis, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjSUNPfZF45yHjoHC={createdAt=1782658750142, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=opi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDa3QGIdr-8Grkgse3={createdAt=1782656288117, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=yu, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDm-7RKJCGL0makzTc={createdAt=1782659416286, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=k, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgEjA0p8GKGEtSTYf={createdAt=1782657906726, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=nmmm, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDl3gdGz0ZGV40_1vj={createdAt=1782659172824, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=ý, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDm5L0_AaLDq9wzzqr={createdAt=1782659441693, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=quá, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkUygqxiQo0QSlAOQ={createdAt=1782659021936, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kilo, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDfkSZu_nZ19kZvxVK={createdAt=1782657779123, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjjjjjjjj, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkXQgabt6xjNm63Du={createdAt=1782659032462, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=lon, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkXPz_7g0SvXSADp9={createdAt=1782659032452, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=lon, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkeFv1XSAezUYIFcK={createdAt=1782659064560, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=nó, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWNBwTy3IaOahcyEz={createdAt=1782638281235, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=loi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWMCaYsFMyVSLI2o3={createdAt=1782638277228, replies={-OwDkz9THfj06Q2LGDRo={createdAt=1782659150186, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=mkopl, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkxLPZcgx_Wf0PYFO={createdAt=1782659142758, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=hhh, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}}, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kiiii, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgVoKf8elsfVZZzv6={createdAt=1782657977243, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=1234567bbbb, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDm0uOcU45K6mMQBef={createdAt=1782659423549, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=koilllll, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDm5KCVJTgdmScGYEa={createdAt=1782659441682, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=mé nó hay bị lỗi linh tinh quá, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWNBJvG-NkXMHexQO={createdAt=1782638281228, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=loi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjMoKDDZmEyXx4CBp={createdAt=1782658381733, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=op, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjRBCOMupLPE7iVQA={createdAt=1782658744780, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=mkk, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}}, image_url=, owner_id=-Ow32dTCXZy4BhKnW6fu, book_id=-OwB68srBnYi2Thjbp1n, book_name=Bộ sách giáo khoa 11}], script_param={grid_view_layout_item=grid_view_layout_item}, script=com.resshare.book.search.SearchBookUI}, msg_type=search_book_result, user_id_destination=-OvZ9PAz1bawHP47ZFks, id=1782748754123, event=get_data_layout2026_06_29_22_59_13, delete=0}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+onChildChanged-OwJ5n0EiP249ESWUieQ
+SearchBookWebService onChildAdded -OwJ5rAu67R-wEHReVjU
+textSearch   null
+bookId   -OwB68srBnYi2Thjbp1n
+SearchBookWebService sendResult | user_id_destination=-OvZ9PAz1bawHP47ZFks | event=get_data_layout2026_06_29_22_59_30 | found=1 | msg={application=book, data={books=[{note=Vừa bán vừa cho không lo về giá 99k, comments={-OwDfkRZtW-o6zGM1CM5={createdAt=1782657779117, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjjjjjjjj, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDmnDVExhd1TYq5zLA={createdAt=1782659625599, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=ôi mà mẹ nó], userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkeF84EeDs2JlYRmR={createdAt=1782659064550, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=má nó, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWUtWXioM5honJu9H={createdAt=1782638312790, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kkkk, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkiK6bq44Z8OLuXiq={createdAt=1782659081236, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=má nó sao lăm lỗi thé, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDfpwusSgxmYPkLRlT={createdAt=1782657801678, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjkkkkkklllllllll, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkiL3uzjBxVKDEO9Y={createdAt=1782659081243, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=thé, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwChsUmqeNtEd110Gvl={createdAt=1782641558929, replies={-OwCi1nim3PpP0f_5xdj={createdAt=1782641601628, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=ok ban, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}}, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=1 h 2, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgVpORwHF6grHRTUN={createdAt=1782657977252, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=bbbb, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjMoOdWc3uuNdeblm={createdAt=1782658381745, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=op, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDl12v8CqRDjQHLxW4={createdAt=1782659162063, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=moik, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDl3ftRpQ0HcEIaYR0={createdAt=1782659172813, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=ý, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDmiTMogKxXR3yELrL={createdAt=1782659606125, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=loi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWMDAgMxdxXeZ1GSn={createdAt=1782638277233, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kiiii, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgMotf5Q3R7-0hSqc={createdAt=1782657940421, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jis, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjRAc5fcZiF9IuPXK={createdAt=1782658744769, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=mkk, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgEk6tWA4y11GbBUH={createdAt=1782657906733, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=nmmm, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDfpy0dyAOXU2tky5u={createdAt=1782657801686, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjkkkkkklllllllll, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjSUzT-rwUPH1enXB={createdAt=1782658750151, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=opi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkUzCslUsytfCtBlE={createdAt=1782659021946, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kilo, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWUu5_J0gy9R6ruOA={createdAt=1782638312795, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kkkk, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDa3QhYSBwwTD2qzH5={createdAt=1782656288124, replies={-OwDflyhYRZxO5r5e4ii={createdAt=1782657785403, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjj  eeeeeeee, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDfjGPwQGxxnFOjLYg={createdAt=1782657774310, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjj, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}}, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=yu, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgiw1J_P1glL6foU2={createdAt=1782658035074, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=aaaaaa, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgiutJO7zrDk3-9dd={createdAt=1782658035064, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=aaaaaa, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDl13hFg7FjdWjsW1V={createdAt=1782659162074, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=moik, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDmpcljuzpWjSSiw8A={createdAt=1782659635460, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=má nó hay lỗi quá, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgMpssP0flmbRcuca={createdAt=1782657940430, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jis, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjSUNPfZF45yHjoHC={createdAt=1782658750142, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=opi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDa3QGIdr-8Grkgse3={createdAt=1782656288117, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=yu, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDm-7RKJCGL0makzTc={createdAt=1782659416286, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=k, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgEjA0p8GKGEtSTYf={createdAt=1782657906726, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=nmmm, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDl3gdGz0ZGV40_1vj={createdAt=1782659172824, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=ý, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDm5L0_AaLDq9wzzqr={createdAt=1782659441693, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=quá, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkUygqxiQo0QSlAOQ={createdAt=1782659021936, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kilo, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDfkSZu_nZ19kZvxVK={createdAt=1782657779123, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=jjjjjjjjjjjjjjj, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkXQgabt6xjNm63Du={createdAt=1782659032462, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=lon, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkXPz_7g0SvXSADp9={createdAt=1782659032452, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=lon, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkeFv1XSAezUYIFcK={createdAt=1782659064560, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=nó, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWNBwTy3IaOahcyEz={createdAt=1782638281235, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=loi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWMCaYsFMyVSLI2o3={createdAt=1782638277228, replies={-OwDkz9THfj06Q2LGDRo={createdAt=1782659150186, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=mkopl, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDkxLPZcgx_Wf0PYFO={createdAt=1782659142758, parentReplyId=, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=hhh, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}}, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=kiiii, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDgVoKf8elsfVZZzv6={createdAt=1782657977243, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=1234567bbbb, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDm0uOcU45K6mMQBef={createdAt=1782659423549, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=koilllll, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDm5KCVJTgdmScGYEa={createdAt=1782659441682, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=mé nó hay bị lỗi linh tinh quá, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwCWNBJvG-NkXMHexQO={createdAt=1782638281228, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=loi, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjMoKDDZmEyXx4CBp={createdAt=1782658381733, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=op, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}, -OwDjRBCOMupLPE7iVQA={createdAt=1782658744780, userAvatarUrl=https://lh3.googleusercontent.com/a/ACg8ocK0XPJ5PYpsVbmLvuqk-J-u377E989XP60S9FN388ONnbY_geo=s96-c, userEmail=dunghoang10082018@gmail.com, message=mkk, userName=Hoàng Văn Dũng, userId=ingTnco6ugNKH6rgbovZ2RXG05O2}}, image_url=, owner_id=-Ow32dTCXZy4BhKnW6fu, book_id=-OwB68srBnYi2Thjbp1n, book_name=Bộ sách giáo khoa 11}], script_param={grid_view_layout_item=grid_view_layout_item}, script=com.resshare.book.search.SearchBookUI}, msg_type=search_book_result, user_id_destination=-OvZ9PAz1bawHP47ZFks, id=1782748771130, event=get_data_layout2026_06_29_22_59_30, delete=0}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+onChildChanged-OwJ5rAu67R-wEHReVjU
+SearchBookWebService onChildAdded -OwJ5uAEglAE8Z7gJXnn
+textSearch   d
+SearchBookWebService sendResult | user_id_destination=-OvZ9PAz1bawHP47ZFks | event=get_data_layout2026_06_29_22_59_43 | found=0 | msg={application=book, data={books=[], script_param={grid_view_layout_item=grid_view_layout_item}, script=com.resshare.book.search.SearchBookUI}, msg_type=search_book_result, user_id_destination=-OvZ9PAz1bawHP47ZFks, id=1782748783372, event=get_data_layout2026_06_29_22_59_43, delete=0}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+onChildChanged-OwJ5uAEglAE8Z7gJXnn
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/my_bookcase
+LoadFormMyBoocaseListener user_id=-OvZ9PAz1bawHP47ZFks | record={application=book, count_message=7, data=../load_form_script/my_bookcase, screen_name=, session=-OwJ5vBmqUSE52540Gga, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_59_47, type=load_form_script, key_data=load_form_script}
+LoadFormMyBoocaseListener event:event_web_loadform_2026_06_29_22_59_47 | user_id=-OvZ9PAz1bawHP47ZFks | books=7 | result=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}]
+LoadFormMyBoocaseListener msg gửi đi={application=book, count_message=7, data={books=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}], script_param={post_collection=book/input_data_cluster01/requets/my_bookcase}, script=com.resshare.book.bookcase.LoadFormMyBookcaseUI}, screen_name=, session=-OwJ5vBmqUSE52540Gga, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_22_59_47, type=load_form_script, key_data=load_form_script}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/searching
+event:event_web_loadform_2026_06_29_22_59_53
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/my_bookcase
+LoadFormMyBoocaseListener user_id=-OvZ9PAz1bawHP47ZFks | record={application=book, count_message=7, data=../load_form_script/my_bookcase, screen_name=, session=-OwJ5z4SRRI8Xg38IZvM, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_23_00_03, type=load_form_script, key_data=load_form_script}
+LoadFormMyBoocaseListener event:event_web_loadform_2026_06_29_23_00_03 | user_id=-OvZ9PAz1bawHP47ZFks | books=7 | result=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}]
+LoadFormMyBoocaseListener msg gửi đi={application=book, count_message=7, data={books=[{note=g, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0lQwGlxaVP_AUZRp3, book_name=hhhhh}, {note=ggggggg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow0mGx_LG1JDxOrQWgY, book_name=gdeddddd}, {note=345, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-Ow32F4lj2IZbXCg7FKK, book_name=123}, {note=sách 0 đồng, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwB7Jw9UQ3Jjv9D4PVr, book_name=Bộ sách giáo khoa 12}, {note=fgg, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_sUYZ7HgnQyJXRtQ, book_name=qqqqq}, {note=v, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwD_vY8lZBtnr4iM2DN, book_name=Bộ sách giáo khoa 12}, {note=r, image_url=, owner_id=-OvZ9PAz1bawHP47ZFks, book_id=-OwJ-X6W-q5DSTqH12rf, book_name=qqqqq}], script_param={post_collection=book/input_data_cluster01/requets/my_bookcase}, script=com.resshare.book.bookcase.LoadFormMyBookcaseUI}, screen_name=, session=-OwJ5z4SRRI8Xg38IZvM, parameter=, user_id_destination=-OvZ9PAz1bawHP47ZFks, event=event_web_loadform_2026_06_29_23_00_03, type=load_form_script, key_data=load_form_script}
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
+collection:book/input_data_cluster01/requets/searching
+event:event_web_loadform_2026_06_29_23_00_08
+annoModulde: request
+methodName: input
+REST_SERVICE_URI: http://127.0.0.1:8087/request/input
